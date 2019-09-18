@@ -8,7 +8,7 @@
 
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="shortcut icon" href="resources/homepageimages/logo.png" type="image/png">
-		<title>Sahayog</title>
+		<title>SahayogNepal</title>
 		<link rel="stylesheet" href="resources/css/sahayoghome.css" type="text/css" media="screen" charset="utf-8">
 	
 	<!-- pop up sign up -->
