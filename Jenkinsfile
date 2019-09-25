@@ -16,7 +16,7 @@ node {
             
             sh '"$MVN_HOME/bin/mvn" -Dmaven.test.failure.ignore clean package'
             sh '"$MVN_HOME/bin/mvn" site'
-            sh '"$MVN_HOME/bin/mvn" site-deploy'
+           
             
          } else {
             bat(/"%MVN_HOME%\bin\mvn" -Dmaven.test.failure.ignore clean package/)
