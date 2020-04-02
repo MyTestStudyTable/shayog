@@ -33,7 +33,7 @@ node {
       withEnv(["MVN_HOME=$mvnHome"]) {
          if (isUnix()) {
             
-            sh 'scp /home/vagrant/workspace/Robin/target/studyTable-0.0.1-SNAPSHOT.war  vagrant@55.55.55.58:/home/vagrant/tomcat9/webapps/studyTable.war'
+            sh 'scp /home/rabin/vagrant/workspace/Robin/target/studyTable-0.0.1-SNAPSHOT.war  vagrant@55.55.55.58:/home/vagrant/tomcat9/webapps/studyTable.war'
             sh 'ssh vagrant@55.55.55.58 "/home/vagrant/tomcat9/bin/shutdown.sh && /home/vagrant/tomcat9/bin/startup.sh"'
          } else {
             print "copy failed"
